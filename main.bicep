@@ -1,5 +1,5 @@
 param location string = resourceGroup().location
-param storagePrefix strin  = 'stgqq'
+param storagePrefix string  = 'stgqq'
 param storageName string = '${storagePrefix}${uniqueString(resourceGroup().id)}'
 
 
